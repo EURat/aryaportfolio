@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 4 - Flatland Business Advisor</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/flatland-business.js" defer></script>
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="week2.html">Week 2</a></li>
+        <li><a href="week3.html">Week 3</a></li>
+        <li><a href="week4.html" class="active">Week 4</a></li>
+        <li><a href="week5.html">Week 5</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="week4">
+    <h2>Flatland Business Advisor</h2>
+    <p>Welcome to Flatland Business Advisor! Use the form below to calculate business growth and get advice dynamically.</p>
+
+    <!-- Business Advisor Form -->
+    <section id="business-advisor">
+      <form id="advisor-form">
+        <label for="revenue">Enter Revenue ($):</label>
+        <input type="number" id="revenue" placeholder="e.g., 50000" required>
+        
+        <label for="expenses">Enter Expenses ($):</label>
+        <input type="number" id="expenses" placeholder="e.g., 30000" required>
+        
+        <button type="submit" class="advisor-button">Calculate</button>
+      </form>
+
+      <!-- Results Section -->
+      <div id="results-container">
+        <h3>Results:</h3>
+        <p id="profit">Profit: </p>
+        <p id="advice">Advice: </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>

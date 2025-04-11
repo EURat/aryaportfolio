@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 5 - RSS Feeds</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/rss-reader.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="week2.html">Week 2</a></li>
+        <li><a href="week3.html">Week 3</a></li>
+        <li><a href="week4.html">Week 4</a></li>
+        <li><a href="week5.html" class="active">Week 5</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="week5">
+    <h2>Week 5 - RSS Feeds</h2>
+    <p>Explore the latest news from various sources around the world.</p>
+
+    <!-- RSS Feed Section -->
+    <section id="rss-feed">
+      <div class="rss-item">
+        <h3>UK News</h3>
+        <p>Stay updated with the latest news from the UK.</p>
+        <button class="rss-button" data-category="uk-news" data-content-id="uk-news-content">Read More</button>
+        <div class="rss-content" id="uk-news-content"></div>
+      </div>
+      <div class="rss-item">
+        <h3>France News</h3>
+        <p>Top stories and updates from France.</p>
+        <button class="rss-button" data-category="france-news" data-content-id="france-news-content">Read More</button>
+        <div class="rss-content" id="france-news-content"></div>
+      </div>
+      <div class="rss-item">
+        <h3>American News</h3>
+        <p>Breaking news from the United States.</p>
+        <button class="rss-button" data-category="america-news" data-content-id="america-news-content">Read More</button>
+        <div class="rss-content" id="america-news-content"></div>
+      </div>
+      <div class="rss-item">
+        <h3>Bing News</h3>
+        <p>General news and updates from around the world.</p>
+        <button class="rss-button" data-category="bing-news" data-content-id="bing-news-content">Read More</button>
+        <div class="rss-content" id="bing-news-content"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Arya Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
